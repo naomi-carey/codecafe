@@ -1,0 +1,119 @@
+/* Main */
+
+body {
+    line-height: 1;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(254, 249, 237);
+}
+
+/* Navbar */
+
+.nav-link {
+    color: black;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.navbar-nav {
+    margin-left: 300px;
+}
+
+/* Video Banner  */
+
+.bannerimg {
+    width: 100%;
+    height: auto;
+}
+
+/* Intro Piece  */
+
+.intro {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    line-height: 1.5;  
+}
+
+.intro-img {
+    margin-top: 100px;
+    
+}
+
+.intro-text {
+    width: 50%;
+    font-size: 20px;
+    margin-top: 110px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 100px;
+
+}
+
+/* what We do */
+
+.whatwedo {
+    display: flex; 
+    flex-wrap: wrap-reverse ;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.coffeefirst {
+    width: 800px;
+    height: auto;
+  
+    margin-top: 50px;
+    
+}
+
+.whatwedolist{
+
+    margin-top: 150px;
+    margin-right: 150px;
+    margin-left: 200px;;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospacea;
+
+}
+.whatwedoitems {
+
+    text-decoration: none;
+    font-size: 3em;
+    list-style-type: none;
+}
+
+/* Games and info  */
+
+.gamesandinfo{
+    display: flex;
+    margin: 200px;
+    margin: 100px;
+}
+
+.info {
+    background-color: black;
+}
+
+.games {
+    
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: wrap;
+}
+
+.game-img {
+    width: 150px;
+    height: auto;
+    padding: 5px;;
+}
+
+/* Footer */
+
+.page-footer {
+    background-color:rgb(252, 239, 212);
+}
+
