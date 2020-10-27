@@ -1,119 +1,192 @@
 /* Main */
 
 body {
-    line-height: 1;
-    font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(254, 249, 237);
+  line-height: 1;
+  font-family: "Courier New", Courier, monospace;
+  background-color: rgb(254, 249, 237);
 }
 
 /* Navbar */
 
 .nav-link {
-    color: black;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+  color: black;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospace;
 }
 
 .navbar-nav {
-    margin-left: 300px;
+  margin-left: 300px;
 }
 
 /* Video Banner  */
 
 .bannerimg {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /* Intro Piece  */
 
 .intro {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    line-height: 1.5;  
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  line-height: 1.5;
 }
 
 .intro-img {
-    margin-top: 100px;
-    
+  margin-top: 100px;
 }
 
 .intro-text {
-    width: 50%;
-    font-size: 20px;
-    margin-top: 110px;
-    font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 100px;
-
+  width: 50%;
+  font-size: 20px;
+  margin-top: 110px;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 100px;
 }
 
 /* what We do */
 
 .whatwedo {
-    display: flex; 
-    flex-wrap: wrap-reverse ;
-    justify-content: space-around;
-    margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-around;
+  margin-bottom: 100px;
 }
 
 .coffeefirst {
-    width: 800px;
-    height: auto;
-  
-    margin-top: 50px;
-    
+  width: 800px;
+  height: auto;
+
+  margin-top: 50px;
 }
 
-.whatwedolist{
-
-    margin-top: 150px;
-    margin-right: 150px;
-    margin-left: 200px;;
-    font-weight: bold;
-    font-family: 'Courier New', Courier, monospacea;
-
+.whatwedolist {
+  margin-top: 150px;
+  margin-right: 150px;
+  margin-left: 200px;
+  font-weight: bold;
+  font-family: "Courier New", Courier, monospacea;
 }
 .whatwedoitems {
-
-    text-decoration: none;
-    font-size: 3em;
-    list-style-type: none;
+  text-decoration: none;
+  font-size: 3em;
+  list-style-type: none;
 }
 
 /* Games and info  */
 
-.gamesandinfo{
-    display: flex;
-    margin: 200px;
-    margin: 100px;
+.gamesandinfo {
+  display: flex;
+  margin: 200px;
+  margin: 100px;
 }
 
 .info {
-    background-color: black;
+  background-color: black;
 }
 
 .games {
-    
-    box-sizing: border-box;
-    display: flex;
-    justify-content: flex-end;
-    flex-flow: wrap;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: flex-end;
+  flex-flow: wrap;
 }
 
 .game-img {
-    width: 150px;
-    height: auto;
-    padding: 5px;;
+  width: 150px;
+  height: auto;
+  padding: 5px;
 }
 
 /* Footer */
 
 .page-footer {
-    background-color:rgb(252, 239, 212);
+  background-color: rgb(252, 239, 212);
 }
 
+/* Why we code on Coding Page */
+
+.why-we-code-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+.why-we-code {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 250px;
+  padding: 50px;
+  text-align: center;
+  font-size: 30px;
+  background-color: rgb(252, 239, 212);
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 650px) {
+  .why-we-code-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Events on Coding Pages */
+
+.event {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 40px;
+}
+
+@media screen and (max-width: 650px) {
+  .event {
+    width: 100%;
+    display: block;
+  }
+}
+
+.event-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.event-text {
+  padding: 0 16px;
+}
+
+.event-text::after,
+.event-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.event-title {
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 20px;
+}
+
+.event-button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: rgb(247, 194, 89);
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.event-button:hover {
+  background-color: #555;
+}
