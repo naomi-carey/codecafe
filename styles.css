@@ -116,4 +116,9 @@ body {
 .page-footer {
     background-color:rgb(252, 239, 212);
 }
+.carousel-inner{
+    width: auto;
+    height: 600px;
+    margin: 120px ;
+}
 
