@@ -152,11 +152,11 @@ body {
 .menu-h2 {
     font-weight: bold;
 }
-.carousel-inner {
+/* .carousel-inner {
     width: auto;
     height: 600px;
     margin: 120px;
-}
+} */
 
 .menu-items {
     text-align: left;
