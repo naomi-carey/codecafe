@@ -152,7 +152,15 @@ body {
 .menu-h2 {
     font-weight: bold;
 }
+<<<<<<< HEAD
+/* .carousel-inner {
+    width: auto;
+    height: 600px;
+    margin: 120px;
+} */
+=======
 
+>>>>>>> ce12632c071dd8d21bca9e41e1fcd1bc16f6819b
 
 .menu-items {
     text-align: left;
