@@ -33,22 +33,37 @@ body {
     display: flex;
     text-align: center;
     justify-content: center;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-around;
     line-height: 1.5;
+    margin-top: 100px;
+    
 }
 
 .intro-img {
-    margin-top: 100px;
+ 
+    
 }
 
 .intro-text {
     width: 50%;
-    font-size: 20px;
-    margin-top: 110px;
+    font-size: 20px;s
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 100px;
 }
+
+/* Features Section */
+
+#features {
+    padding: 5% 10% 5% 10%; 
+    position: relative;}
+
+.feature-box {
+    text-align: center; 
+    padding:10px;}
+
+    .feature-picture {
+         margin-bottom: 50px;}
 
 /* what We do */
 
@@ -104,10 +119,85 @@ body {
     padding: 5px;
 }
 
+/* Landing Page Testimonial */
+
+#testimonial-carousel{
+    height: 300px;
+}
+
+#testimonials {  
+    text-align: center; 
+    background-color: #dad2bc;
+    color: rgb(0, 0, 0);
+   
+}
+    
+#press {
+    background-color:  #dad2bc;
+    margin-bottom: 0;
+    color: rgb(0, 0, 0); 
+
+    text-align: center;
+}
+
+.press-logo {
+
+    width: 15%; 
+    margin: 20px 20px 50px;
+    padding: 0;
+}
+
+.carousel-item {
+   margin-top: 100px;
+}
+
+/* Landing Page Events Section */
+
+.events {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-items: center;  
+}
+
+.card-img-top {
+    width: 300px;
+    height: 300px;
+    margin-top: 5px;
+}
+
+.btn {
+ background-color: rgb(220, 215, 215);
+}
+
+.card {
+    justify-content: center; 
+    text-align: center;
+    align-items: center;
+   background-color:#dad2bc ;
+    margin-top: 100px;
+    border: 0;
+}
+
 /* Footer */
 
+.footerlinks {
+    text-decoration:none;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+}
+
+.list-unstyled {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
 .page-footer {
-    background-color: rgb(252, 239, 212);
+    background-color:  #dad2bc;
+    margin-top: 100px;
 }
 
 /* Why we code on Coding Page */
@@ -179,12 +269,21 @@ body {
 
 }
 
+<<<<<<< HEAD
+@media screen and (max-width: 650px) {
+    .event {
+        width: 100%;
+        display: block;
+    }
+   
+=======
 /* gaming */ 
 
 .carousel-inner{
     width: auto;
     height: auto ;
   /*margin: 120px ;*/
+>>>>>>> ce12632c071dd8d21bca9e41e1fcd1bc16f6819b
 }
 
 .carousel-control-prev-icon{
@@ -241,9 +340,12 @@ body {
    margin-top: 200px;
 }
 
+<<<<<<< HEAD
+=======
 .eventText{
     text-align: center;
     margin-top: 100px;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
+>>>>>>> ce12632c071dd8d21bca9e41e1fcd1bc16f6819b
