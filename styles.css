@@ -269,7 +269,12 @@ body {
    
 }
 
+/*gaming*/
 
+.carousel-inner{
+    width: auto;
+    height: 600px;    
+}
 
 .carousel-control-prev-icon{
     margin-top: 100px;
