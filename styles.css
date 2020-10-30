@@ -40,14 +40,10 @@ body {
     
 }
 
-.intro-img {
- 
-    
-}
 
 .intro-text {
     width: 50%;
-    font-size: 20px;s
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 100px;
 }
@@ -242,15 +238,11 @@ body {
 .menu-h2 {
     font-weight: bold;
 }
-<<<<<<< HEAD
 /* .carousel-inner {
     width: auto;
     height: 600px;
     margin: 120px;
 } */
-=======
-
->>>>>>> ce12632c071dd8d21bca9e41e1fcd1bc16f6819b
 
 .menu-items {
     text-align: left;
@@ -269,29 +261,22 @@ body {
 
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 650px) {
     .event {
         width: 100%;
         display: block;
     }
    
-=======
-/* gaming */ 
-
-.carousel-inner{
-    width: auto;
-    height: auto ;
-  /*margin: 120px ;*/
->>>>>>> ce12632c071dd8d21bca9e41e1fcd1bc16f6819b
 }
 
+
+
 .carousel-control-prev-icon{
-    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .carousel-control-next{
-    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 #competContain{
@@ -340,12 +325,9 @@ body {
    margin-top: 200px;
 }
 
-<<<<<<< HEAD
-=======
 .eventText{
     text-align: center;
     margin-top: 100px;
     font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
 }
->>>>>>> ce12632c071dd8d21bca9e41e1fcd1bc16f6819b
