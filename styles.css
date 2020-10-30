@@ -205,7 +205,7 @@ body {
 .why-we-code-container {
     display: flex;
     justify-content: space-around;
-    margin-bottom: 100px;
+    margin: 3em;
 }
 
 .why-we-code {
@@ -228,88 +228,116 @@ body {
     }
 }
 
+/* Header for coding page */
+
+.coding-header {
+    color: rgb(107, 64, 8);
+    font-style: italic;
+    font-weight: bold;
+    margin: 1em 1em 0em 1em;
+}
 
 /* Menu page CSS */
 
 .menu-h2 {
     font-weight: bold;
 }
-.carousel-inner{
-    width: auto;
-    height: 600px;
-    margin: 120px ;
-}
+
 
 .menu-items {
     text-align: left;
     font-style: italic;
     display: inline;
-   
 }
 
 .menu-li {
     padding-bottom: 3%;
     margin-bottom: 1%;
 }
- 
 
 .price {
     display: inline;
     float: right;
-   
-=======
-/* Events on Coding Pages */
 
-.event {
-    float: left;
-    width: 33.3%;
-    margin-bottom: 16px;
-    padding: 0 40px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 650px) {
     .event {
         width: 100%;
         display: block;
     }
    
+=======
+/* gaming */ 
+
+.carousel-inner{
+    width: auto;
+    height: auto ;
+  /*margin: 120px ;*/
+>>>>>>> ce12632c071dd8d21bca9e41e1fcd1bc16f6819b
 }
 
-.event-card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.carousel-control-prev-icon{
+    margin-bottom: 100px;
 }
 
-.event-text {
-    padding: 0 16px;
+.carousel-control-next{
+    margin-bottom: 100px;
 }
 
-.event-text::after,
-.event-container::after {
-    content: '';
-    clear: both;
-    display: table;
-}
-
-.event-title {
+#competContain{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 50px;
     font-size: 20px;
-    font-style: italic;
-    padding-top: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
 }
 
-.event-button {
-    border: none;
-    outline: 0;
-    display: inline-block;
-    padding: 8px;
-    color: white;
-    background-color: rgb(247, 194, 89);
+.competText {
+    margin-left: 50px;
+    
+}
+
+#retroContain{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 200px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.retroText {
+    margin-left: 50px;
+}
+
+.retroPic{
+    margin-left: 50px;
+}
+
+#gamingEvent {
+    display: flex;
+    margin-top: 100px;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+
+.end { 
+   text-align: center;
+   margin-top: 200px;
+}
+
+<<<<<<< HEAD
+=======
+.eventText{
     text-align: center;
-    cursor: pointer;
-    width: 100%;
+    margin-top: 100px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
-
-.event-button:hover {
-    background-color: #555;
-
-}
-
+>>>>>>> ce12632c071dd8d21bca9e41e1fcd1bc16f6819b
