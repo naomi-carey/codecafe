@@ -3,10 +3,30 @@
 body {
     line-height: 1;
     font-family: 'Courier New', Courier, monospace;
-    background-color: rgb(254, 249, 237);
+    background-color: #fffefb;
+  
 }
 
 /* Navbar */
+
+.collapse {
+    justify-content: flex-end;
+    margin-right: 50px;
+    
+}
+.navbar-brand {
+    margin-left: 20px;
+    padding:0;
+}
+
+.navbar {
+    text-align: right;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    
+}
 
 .nav-link {
     color: black;
@@ -16,15 +36,16 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.navbar-nav {
-    margin-left: 300px;
+.nav-item {
+    padding-right: 5px;
 }
 
-/* Video Banner  */
+/* Banner  */
 
 .bannerimg {
     width: 100%;
     height: auto;
+    margin-top: 100px;
 }
 
 /* Intro Piece  */
@@ -40,14 +61,36 @@ body {
     
 }
 
-.intro-img {
- 
-    
+.inttrobtn{
+    border: 2.5px solid black;
+    background-color:  #fffbeb;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 14px 28px;
+    width: 150px;
+}
+
+.inttrobtn:hover {
+    background-color:#ffe270;
+    color: black;
+  
+}
+
+.faketag {
+    color: black;
+    opacity: 50%;
+}
+
+.faketag:hover {
+    color:black;
+    opacity: 100%;
 }
 
 .intro-text {
     width: 50%;
-    font-size: 20px;s
+    font-size: 20px;
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 100px;
 }
@@ -56,14 +99,23 @@ body {
 
 #features {
     padding: 5% 10% 5% 10%; 
-    position: relative;}
+    position: relative;
+}
 
 .feature-box {
     text-align: center; 
-    padding:10px;}
+    padding:10px;
+}
 
-    .feature-picture {
-         margin-bottom: 50px;}
+.feature-picture {
+    margin-bottom: 50px;
+    margin-top: 60px;
+}
+
+#features {
+    padding-top: 0;
+}
+         
 
 /* what We do */
 
@@ -119,36 +171,75 @@ body {
     padding: 5px;
 }
 
+.yellowline {
+    background-color: #ffe270;
+    height: 10px;
+}
 /* Landing Page Testimonial */
 
 #testimonial-carousel{
-    height: 300px;
+   
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.carousel-inner{
+display: flex;
+text-align: center;
+align-items: center;
 }
 
 #testimonials {  
     text-align: center; 
-    background-color: #dad2bc;
-    color: rgb(0, 0, 0);
+    background-color: #45494b;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
    
+}
+
+.testimonial-text {
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+
 }
     
 #press {
-    background-color:  #dad2bc;
+    background-color:  #45494b;
     margin-bottom: 0;
-    color: rgb(0, 0, 0); 
-
+    color: white; 
+    justify-content: space-between;
     text-align: center;
 }
 
 .press-logo {
-
-    width: 15%; 
     margin: 20px 20px 50px;
     padding: 0;
 }
 
 .carousel-item {
-   margin-top: 100px;
+   padding:110px;
+}
+
+@media screen and (max-width: 510px) {
+    .testimonial-text{
+       font-size: 20px;
+       padding: 0;
+       
+    }
+    em {
+        font-size: 10px;
+    }
+    .carousel-item {
+        padding: 60px;
+    }
 }
 
 /* Landing Page Events Section */
@@ -167,24 +258,98 @@ body {
     margin-top: 5px;
 }
 
-.btn {
- background-color: rgb(220, 215, 215);
+.event {
+ background-color: #ffe270;
+
+}
+
+.event:hover {
+    opacity: 60%;
+    background-color: #ffe270;
+   
 }
 
 .card {
+    color: white;
     justify-content: center; 
     text-align: center;
     align-items: center;
-   background-color:#dad2bc ;
+   background-color:#45494b ;
     margin-top: 100px;
     border: 0;
 }
 
+/* Landing page contact us */
+
+.landingcontactus {
+    background-color: #ffe270;
+    height: 170px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.landingcontactush2 {
+    font-weight: 500;
+    padding-top: 30px;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.landingcontactusbtn {
+    border: 2.5px solid black;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.landingcontactusbtn:hover {
+    background: black;
+    color: white;
+  }
+
+  .contact-landing-img {
+      margin-top: 10px;
+      margin-bottom: 10px;
+  }
+
+  .landinginfo {
+      margin-bottom: 10px;
+      text-decoration: none;
+      color: black;
+  }
+
+  /* 
+Landing Page Information piece */
+
+#contactinfolanding{
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 20PX;
+    align-items: center;
+    padding: 15px;
+}
+
+#landinginfo {
+    font-weight: 550;   
+}
+
 /* Footer */
 
+.footerContent {
+    color: white;
+}
+
+.footerInfo {
+    color: white;
+}
+.footer-copyright{
+    color: white;
+}
+
 .footerlinks {
-    text-decoration:none;
-    color: black;
+    text-decoration: none;
+    color:white;
     font-family: 'Courier New', Courier, monospace;
     margin-bottom: 10px;
 }
@@ -192,13 +357,37 @@ body {
 .list-unstyled {
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: white;
 }
 
 .page-footer {
-    background-color:  #dad2bc;
-    margin-top: 100px;
+    background-color:  #45494b;
+   
 }
+
+.fadiv {
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.9;
+    color: #ffe270;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  }
+
+  .footer-copyright{
+      text-decoration: none;
+      color: white;
+  }
 
 /* Why we code on Coding Page */
 
@@ -261,21 +450,12 @@ body {
 
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 650px) {
     .event {
         width: 100%;
         display: block;
     }
    
-=======
-/* gaming */ 
-
-.carousel-inner{
-    width: auto;
-    height: auto ;
-  /*margin: 120px ;*/
->>>>>>> ce12632c071dd8d21bca9e41e1fcd1bc16f6819b
 }
 
 .carousel-control-prev-icon{
@@ -332,12 +512,94 @@ body {
    margin-top: 200px;
 }
 
-<<<<<<< HEAD
-=======
-.eventText{
-    text-align: center;
-    margin-top: 100px;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+/* Contact us Page  */
+
+.contactusbtn  {
+    border: 2.5px solid black;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
 }
->>>>>>> ce12632c071dd8d21bca9e41e1fcd1bc16f6819b
+
+.contactusbtn:hover {
+    background: grey;
+    color: white;
+    opacity: 70%;
+}
+
+.google-maps {
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.contactusform {
+    margin-bottom: 100px;
+    margin-top: 50px;
+    width: 40%;
+}
+
+#contact-testimonials {  
+    text-align: center; 
+    background-color: #45494b;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+   
+}
+
+.contact-testimonial-image {
+    width: 15%; 
+    border-radius: 100%;
+    margin: 35px;
+}
+
+.contact-testimonial-text {
+    font-size: 1.2em;
+}
+
+
+@media screen and (max-width: 510px) {
+    .contactusform{
+        width: 80%;
+    }
+}
+
+.yellowline1-contactus {
+    height: 10px;
+    background-color: #ffe270;
+}
+
+.yellowline2-contactus {
+    height: 60px;
+    background-color: #ffe270;
+}
+
+.contact-us-div {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    line-height: 1.5;
+    margin-top: 50px;
+}
+
+
+.contact {
+    padding-top: 100px;
+    padding-bottom: 60px;
+ }
+
+ .contact-carousel {
+     text-align: center;
+ }
+
+ .carousel-control-prev-icon {
+     margin-bottom: 0;
+ }
+
+ .carousel-control-next  {
+    margin-bottom: 0;
+}
