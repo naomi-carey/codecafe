@@ -431,7 +431,11 @@ Landing Page Information piece */
 .menu-h2 {
     font-weight: bold;
 }
-
+/* .carousel-inner {
+    width: auto;
+    height: 600px;
+    margin: 120px;
+} */
 
 .menu-items {
     text-align: left;
@@ -458,12 +462,19 @@ Landing Page Information piece */
    
 }
 
+/*gaming*/
+
+.carousel-inner{
+    width: auto;
+    height: 600px;    
+}
+
 .carousel-control-prev-icon{
-    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .carousel-control-next{
-    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 #competContain{
@@ -544,11 +555,14 @@ Landing Page Information piece */
     background-color: #45494b;
     color: white;
     justify-content: center;
-    text-align: center;
-    align-items: center;
+
    
 }
 
+.eventText{
+    text-align: center;
+    align-items: center;
+}
 .contact-testimonial-image {
     width: 15%; 
     border-radius: 100%;
