@@ -17,6 +17,7 @@ body {
 .navbar-brand {
     margin-left: 20px;
     padding:0;
+    
 }
 
 .navbar {
@@ -431,11 +432,6 @@ Landing Page Information piece */
 .menu-h2 {
     font-weight: bold;
 }
-/* .carousel-inner {
-    width: auto;
-    height: 600px;
-    margin: 120px;
-} */
 
 .menu-items {
     text-align: left;
@@ -464,7 +460,7 @@ Landing Page Information piece */
 
 /*gaming*/
 
-.carousel-inner{
+.carousel-gaming{
     width: 100% ;
     height: 600px;  
 }
@@ -521,6 +517,10 @@ Landing Page Information piece */
 .end { 
    text-align: center;
    margin-top: 200px;
+}
+.btn btn-primary{
+    justify-content: center;
+
 }
 
 
