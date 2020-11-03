@@ -24,6 +24,7 @@ let language = selectLanguage.value;
 
 headers = document.querySelectorAll(".coding-header");
 navLinks = document.querySelectorAll(".nav-link");
+codingIntro = document.getElementById("coding-intro");
 // console.log(navLinks);
 
 
@@ -40,6 +41,7 @@ selectLanguage.addEventListener("change", function(){
       navLinks[3].innerHTML = "ИГРЫ";
       navLinks[4].innerHTML = "О НАС";
       navLinks[5].value = "Русский";
+      codingIntro.innerHTML = "Разнообразный и богатый опыт постоянное информационно-пропагандистское обеспечение нашей деятельности обеспечивает широкому кругу (специалистов) участие в формировании существенных финансовых и административных условий. Товарищи! постоянный количественный рост и сфера нашей активности позволяет выполнять важные задания по разработке новых предложений. С другой стороны реализация намеченных плановых заданий играет важную роль в формировании существенных финансовых и административных условий.";
       break;
   }
 })
