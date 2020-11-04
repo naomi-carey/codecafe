@@ -24,5 +24,5 @@ const enLanguage = {
   footerLinksHome: "Home",
   footerLinksMenu: "Menu",
   footerLinksEvents: "Events",
-  footerLinksContact: "Contact Us"
+  footerLinksContact: "Contact Us",
 }
