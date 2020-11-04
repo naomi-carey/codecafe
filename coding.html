@@ -12,6 +12,17 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
     <!-- <link rel="manifest" href="images/favicon/site.webmanifest"> -->
+    <script src="libs/CLDRPluralRuleParser.js"></script>
+    <script src="libs/jquery.i18n.js"></script>
+    <script src="libs/jquery.i18n.messagestore.js"></script>
+    <script src="libs/jquery.i18n.fallbacks.js"></script>
+    <script src="libs/jquery.i18n.language.js"></script>
+    <script src="libs/jquery.i18n.parser.js"></script>
+    <script src="libs/jquery.i18n.emitter.js"></script>
+    <script src="libs/jquery.i18n.emitter.bidi.js"></script>
+    <script src="languages/en.js"></script>
+    <script src="languages/fr.js"></script>
+    <script src="languages/ru.js"></script>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
@@ -22,25 +33,25 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="index.html">HOME</a>
+          <a class="nav-link" href="index.html" data-i18n="navHome">HOME</a>
         </li>
           <li class="nav-item">
-          <a class="nav-link" href="menu.html">MENU</a>
+          <a class="nav-link" href="menu.html" data-i18n="navMenu">MENU</a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="coding.html">CODING </a>
+          <a class="nav-link" href="coding.html" data-i18n="navCoding">CODING </a>
           </li>
           <li class="nav-item">
-          <a class="nav-link" href="gaming.html">GAMING </a>
+          <a class="nav-link" href="gaming.html" data-i18n="navGaming">GAMING </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="contact.html">ABOUT US</a>
+            <a class="nav-link" href="contact.html" data-i18n="navAbout">ABOUT US</a>
           </li>
           <li class="nav-item">
             <select name="language" class="language-select nav-link">
-              <option value="English">English</option>
-              <option value="French">French</option>
-              <option value="Russian">Russian</option>
+              <option value="en">English</option>
+              <option value="fr">Français</option>
+              <option value="ru">Русский</option>
             </select>
           </li>
 
@@ -55,54 +66,54 @@
       <img src="images/codingroom1.jpg" width="700px" height=auto alt="Image of Code Area">
     </div>
     <div class = "intro-text">
-      <h2 class = "coding-header">Where we code</h2>
-      <p id = "coding-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel felis nisi. Sed euismod tortor sapien, commodo porta dui convallis a. Maecenas pellentesque rhoncus auctor. Nulla facilisi. Duis ac varius dolor, nec accumsan quam. Morbi blandit, lacus non tincidunt consequat, justo justo porttitor tortor, ac rhoncus arcu dolor sed elit. Nulla dictum, elit non sodales sollicitudin, libero odio ullamcorper sem, quis rhoncus dolor erat non mauris. Maecenas dolor metus, rutrum congue ipsum vitae, blandit imperdiet libero. Donec maximus elit augue, vitae sagittis lacus pellentesque in.</p>
+      <h2 class = "coding-header" data-i18n="codingWhere">Where we code</h2>
+      <p id = "coding-intro" data-i18n="codingIntro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel felis nisi. Sed euismod tortor sapien, commodo porta dui convallis a. Maecenas pellentesque rhoncus auctor. Nulla facilisi. Duis ac varius dolor, nec accumsan quam. Morbi blandit, lacus non tincidunt consequat, justo justo porttitor tortor, ac rhoncus arcu dolor sed elit. Nulla dictum, elit non sodales sollicitudin, libero odio ullamcorper sem, quis rhoncus dolor erat non mauris. Maecenas dolor metus, rutrum congue ipsum vitae, blandit imperdiet libero. Donec maximus elit augue, vitae sagittis lacus pellentesque in.</p>
     </div>
   </section>
 
   <!-- Why we code -->
-  <h1 class = "coding-header">Why we code</h1>
+  <h1 class = "coding-header" data-i18n="codingWhy">Why we code</h1>
 
   <div class="why-we-code-container">
     <div class = "why-we-code">
-      <p class = "p-face">Why we code</p>
-      <p class = "p-back">We code because it is fun</p>
+      <p class = "p-face" data-i18n="codingWhy">Why we code</p>
+      <p class = "p-back" data-i18n="codingWhyFun">We code because it is fun</p>
     </div>
     <div class = "why-we-code">
-      <p class = "p-face">Why we code</p>
-      <p class = "p-back">We code because it helps other people</p>
+      <p class = "p-face" data-i18n="codingWhy">Why we code</p>
+      <p class = "p-back" data-i18n="codingWhyHelps">We code because it helps other people</p>
     </div>
     <div class = "why-we-code">
-      <p class = "p-face">Why we code</p>
-      <p class = "p-back">We code because we love it</p></div>
+      <p class = "p-face" data-i18n="codingWhy">Why we code</p>
+      <p class = "p-back" data-i18n="codingWhyLove">We code because we love it</p></div>
   </div>
 
    <!-- Events calendar -->
 
-  <h1 class = "coding-header">Our events</h1>
+  <h1 class = "coding-header" data-i18n="codingEvents">Our events</h1>
   <div class="card-deck p-4">
     <div class="card">
       <img src="images/event1.jpg" class="card-img-top" alt="Event 1" >
       <div class="card-body">
-        <h5 class="card-title">Coffee with our team</h5>
-        <p class="card-text">Every day, at 8:30 am</p>
-        <a href="#" class="event btn">Join</a>
+        <h5 class="card-title" data-i18n="codingEventsCoffee">Coffee with our team</h5>
+        <p class="card-text" data-i18n="codingEventsCoffeeTime">Every day, at 8:30 am</p>
+        <a href="#" class="event btn" data-i18n="codingEventsJoin">Join</a>
       </div>
     </div>
     <div class="card">
       <img src="images/event2.jpg" class="card-img-top" alt="Event 2">
       <div class="card-body">
-        <h5 class="card-title">Quaterly Hackathon</h5>
-        <p class="card-text">06, Nov, at 9:00 am</p>
-        <a href="#" class="event btn">Join</a>
+        <h5 class="card-title" data-i18n="codingEventsHackathon">Quaterly Hackathon</h5>
+        <p class="card-text" data-i18n="codingEventsHackathonTime">06, Nov, at 9:00 am</p>
+        <a href="#" class="event btn" data-i18n="codingEventsJoin">Join</a>
       </div>
     </div>
     <div class="card">
       <img src="images/event3.jpg" class="card-img-top" alt="Event 3">
       <div class="card-body">
-        <h5 class="card-title">Tech Meet Up</h5>
-        <p class="card-text">07, Nov, at 9:00 am</p>
-        <a href="#" class="event btn">Join</a>
+        <h5 class="card-title" data-i18n="codingEventsMeetUp">Tech Meet Up</h5>
+        <p class="card-text" data-i18n="codingEventsMeetUpTime">07, Nov, at 9:00 am</p>
+        <a href="#" class="event btn" data-i18n="codingEventsJoin">Join</a>
       </div>
       </div>
     </div>
@@ -124,8 +135,8 @@
       <div class="col-md-4 mx-auto">
 
         <!-- Content -->
-        <h5 class="footerContent font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-        <p class="footerInfo">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+        <h5 class="footerContent font-weight-bold text-uppercase mt-3 mb-4" data-i18n="footerContent">Footer Content</h5>
+        <p class="footerInfo" data-i18n="footerInfo">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
           consectetur
           adipisicing elit.</p>
 
@@ -138,8 +149,8 @@
       <div class="col-md-4 mx-auto">
 
         <!-- Content -->
-        <h5 class="footerContent font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-        <p class="footerInfo">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+        <h5 class="footerContent font-weight-bold text-uppercase mt-3 mb-4" data-i18n="footerContent">Footer Content</h5>
+        <p class="footerInfo" data-i18n="footerInfo">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
           consectetur
           adipisicing elit.</p>
 
@@ -155,20 +166,20 @@
       <div class="col-md-2 mx-auto">
 
         <!-- Links -->
-        <h5 class="footerlinks font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+        <h5 class="footerlinks font-weight-bold text-uppercase mt-3 mb-4" data-i18n="footerLinks">Links</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a Class="footerlinks" href="#!">Home</ Class="footerlinks">
+            <a Class="footerlinks" href="#!" data-i18n="footerLinksHome">Home</a>
           </li>
           <li>
-            <a Class="footerlinks" href="#!">Menu</a>
+            <a Class="footerlinks" href="#!" data-i18n="footerLinksMenu">Menu</a>
           </li>
           <li>
-            <a Class="footerlinks" href="#!">Events</a>
+            <a Class="footerlinks" href="#!" data-i18n="footerLinksEvents">Events</a>
           </li>
           <li>
-            <a Class="footerlinks" href="#!">Contact Us</a>
+            <a Class="footerlinks" href="#!" data-i18n="footerLinksContact">Contact Us</a>
           </li>
         </ul>
 
