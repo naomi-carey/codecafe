@@ -11,62 +11,70 @@
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon_io/site.webmanifest">
+    <!-- <link rel="manifest" href="images/favicon/site.webmanifest"> -->
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <a class="navbar-brand"> <img classs="logo" src="images/logo.png" width="150px;" alt="Code Cafe Logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="menu.html">Menu <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="coding.html">Coding </a>
-              </li>
-              <li class="nav-item active">
-                <a class="nav-link" href="gaming.html">Gaming </a>
-              </li>
-              <li class="nav-item active">
-                  <a class="nav-link" href="#">Products</a>
-                </li>
-                <li class="nav-item active">
-                  <a class="nav-link" href="contact.html">About Us</a>
-                </li>
-    
-            </li>
-          </ul>
-        </div>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+    <a class="navbar-brand"> <img classs="logo" src="images/logo.png" width="200px;" alt="Code Cafe Logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">HOME</a>
+        </li>
+          <li class="nav-item">
+          <a class="nav-link" href="menu.html">MENU</a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="coding.html">CODING </a>
+          </li>
+          <li class="nav-item">
+          <a class="nav-link" href="gaming.html">GAMING </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <select name="language" class="language-select nav-link">
+              <option value="English">English</option>
+              <option value="French">French</option>
+              <option value="Russian">Russian</option>
+            </select>
+          </li>
+
+        </li>
+      </ul>
+    </div>
+  </nav>
 
     <!-- Code Area -->
-    <section class = "intro">
-        <div class = "intro-img">
-            <img src="images/codingroom1.jpg" width="700px" height=auto alt="Image of Code Area">
-        </div>
-        <div class = "intro-text">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel felis nisi. Sed euismod tortor sapien, commodo porta dui convallis a. Maecenas pellentesque rhoncus auctor. Nulla facilisi. Duis ac varius dolor, nec accumsan quam. Morbi blandit, lacus non tincidunt consequat, justo justo porttitor tortor, ac rhoncus arcu dolor sed elit. Nulla dictum, elit non sodales sollicitudin, libero odio ullamcorper sem, quis rhoncus dolor erat non mauris. Maecenas dolor metus, rutrum congue ipsum vitae, blandit imperdiet libero. Donec maximus elit augue, vitae sagittis lacus pellentesque in.</p>
-        </div>
+  <section class = "intro">
+    <div class = "intro-img">
+      <img src="images/codingroom1.jpg" width="700px" height=auto alt="Image of Code Area">
+    </div>
+    <div class = "intro-text">
+      <h2 class = "coding-header">Where we code</h2>
+      <p id = "coding-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent vel felis nisi. Sed euismod tortor sapien, commodo porta dui convallis a. Maecenas pellentesque rhoncus auctor. Nulla facilisi. Duis ac varius dolor, nec accumsan quam. Morbi blandit, lacus non tincidunt consequat, justo justo porttitor tortor, ac rhoncus arcu dolor sed elit. Nulla dictum, elit non sodales sollicitudin, libero odio ullamcorper sem, quis rhoncus dolor erat non mauris. Maecenas dolor metus, rutrum congue ipsum vitae, blandit imperdiet libero. Donec maximus elit augue, vitae sagittis lacus pellentesque in.</p>
+    </div>
   </section>
 
-  <!-- What we code -->
-  <h1 class = "coding-header">Why do you code</h1>
+  <!-- Why we code -->
+  <h1 class = "coding-header">Why we code</h1>
+
   <div class="why-we-code-container">
     <div class = "why-we-code">
-      <p>We code because it is fun</p>
+      <p class = "p-face">Why we code</p>
+      <p class = "p-back">We code because it is fun</p>
     </div>
     <div class = "why-we-code">
-      <p>We code because it helps other people</p>
+      <p class = "p-face">Why we code</p>
+      <p class = "p-back">We code because it helps other people</p>
     </div>
     <div class = "why-we-code">
-      <p>We code because we love it</p></div>
+      <p class = "p-face">Why we code</p>
+      <p class = "p-back">We code because we love it</p></div>
   </div>
 
    <!-- Events calendar -->
@@ -78,177 +86,118 @@
       <div class="card-body">
         <h5 class="card-title">Coffee with our team</h5>
         <p class="card-text">Every day, at 8:30 am</p>
-      </div>
-      <div class="card-footer">
-        <a href="#" class="btn btn-primary">Join</a>
+        <a href="#" class="event btn">Join</a>
       </div>
     </div>
     <div class="card">
       <img src="images/event2.jpg" class="card-img-top" alt="Event 2">
       <div class="card-body">
-        <h5 class="card-title">Livecoding</h5>
-        <p class="card-text">Every day, every time, everyone</p>
-      </div>
-      <div class="card-footer">
-        <a href="#" class="btn btn-primary">Join</a>
+        <h5 class="card-title">Quaterly Hackathon</h5>
+        <p class="card-text">06, Nov, at 9:00 am</p>
+        <a href="#" class="event btn">Join</a>
       </div>
     </div>
     <div class="card">
       <img src="images/event3.jpg" class="card-img-top" alt="Event 3">
       <div class="card-body">
-        <h5 class="card-title">Sunday walking</h5>
-        <p class="card-text">01, Nov, at 9:00 am</p>
+        <h5 class="card-title">Tech Meet Up</h5>
+        <p class="card-text">07, Nov, at 9:00 am</p>
+        <a href="#" class="event btn">Join</a>
       </div>
-      <div class="card-footer">
-        <a href="#" class="btn btn-primary">Join</a>
       </div>
     </div>
   </div>
 
+
+  
+
      <!-- Footer -->
 <footer class="page-footer font-small stylish-color-dark pt-4">
 
-    <!-- Footer Links -->
-    <div class="container text-center text-md-left">
-  
-      <!-- Grid row -->
-      <div class="row">
-  
-        <!-- Grid column -->
-        <div class="col-md-4 mx-auto">
-  
-          <!-- Content -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
-          <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
-            consectetur
-            adipisicing elit.</p>
-  
-        </div>
-        <!-- Grid column -->
-  
-        <hr class="clearfix w-100 d-md-none">
-  
-        <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-  
-          <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-  
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
-            </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
-  
-        <hr class="clearfix w-100 d-md-none">
-  
-        <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-  
-          <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-  
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
-            </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
-  
-        <hr class="clearfix w-100 d-md-none">
-  
-        <!-- Grid column -->
-        <div class="col-md-2 mx-auto">
-  
-          <!-- Links -->
-          <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
-  
-          <ul class="list-unstyled">
-            <li>
-              <a href="#!">Link 1</a>
-            </li>
-            <li>
-              <a href="#!">Link 2</a>
-            </li>
-            <li>
-              <a href="#!">Link 3</a>
-            </li>
-            <li>
-              <a href="#!">Link 4</a>
-            </li>
-          </ul>
-  
-        </div>
-        <!-- Grid column -->
-  
-      </div>
-      <!-- Grid row -->
-  
-    </div>
-    <!-- Footer Links -->
-  
-    <hr>
-  
-    <!-- Social buttons -->
-    <ul class="list-unstyled list-inline text-center">
-      <li class="list-inline-item">
-        <a class="btn-floating btn-fb mx-1">
-          <i class="fab fa-facebook-f"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-tw mx-1">
-          <i class="fab fa-twitter"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-gplus mx-1">
-          <i class="fab fa-google-plus-g"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-li mx-1">
-          <i class="fab fa-linkedin-in"> </i>
-        </a>
-      </li>
-      <li class="list-inline-item">
-        <a class="btn-floating btn-dribbble mx-1">
-          <i class="fab fa-dribbble"> </i>
-        </a>
-      </li>
-    </ul>
-    <!-- Social buttons -->
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left">
 
-    <!-- Copyright -->
-    <div class="footer-copyright text-center py-3">© 2020 Copyright:
-      <a href="https://coffeecode.com/"> Coffeecode.com</a>
+    <!-- Grid row -->
+    <div class="row">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Content -->
+        <h5 class="footerContent font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+        <p class="footerInfo">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-4 mx-auto">
+
+        <!-- Content -->
+        <h5 class="footerContent font-weight-bold text-uppercase mt-3 mb-4">Footer Content</h5>
+        <p class="footerInfo">Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
+          consectetur
+          adipisicing elit.</p>
+
+      </div>
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+
+      <hr class="clearfix w-100 d-md-none">
+
+      <!-- Grid column -->
+      <div class="col-md-2 mx-auto">
+
+        <!-- Links -->
+        <h5 class="footerlinks font-weight-bold text-uppercase mt-3 mb-4">Links</h5>
+
+        <ul class="list-unstyled">
+          <li>
+            <a Class="footerlinks" href="#!">Home</ Class="footerlinks">
+          </li>
+          <li>
+            <a Class="footerlinks" href="#!">Menu</a>
+          </li>
+          <li>
+            <a Class="footerlinks" href="#!">Events</a>
+          </li>
+          <li>
+            <a Class="footerlinks" href="#!">Contact Us</a>
+          </li>
+        </ul>
+
+      </div>
+      <!-- Grid column -->
+
     </div>
-    <!-- Copyright -->
-  
-  </footer>
-  <!-- Footer -->
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <hr>
+
+  <!-- Social buttons -->
+  <div class="fadiv">
+  <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+  <a href="https://www.twitter.com/" class="fa fa-twitter"></a>
+  <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+  <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+  </div>
+  <!-- Copyright -->
+  <div class=" footer-copyright footer-copyright text-center py-3">© 2020 Copyright:
+    <a class = "footer-copyright" href="https://coffeecode.com/"> CodeCafe.com</a>
+  </div>
+  <!-- Copyright -->
+
+</footer>
+<!-- Footer -->
+<script src = "coding.js"></script>
 </body>
-</html>
+</html
