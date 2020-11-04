@@ -92,29 +92,48 @@
 
   <h1 class = "coding-header" data-i18n="codingEvents">Our events</h1>
   <div class="card-deck p-4">
-    <div class="card">
-      <img src="images/event1.jpg" class="card-img-top" alt="Event 1" >
+    <div class="card coding-card">
+      <img src="images/event1.jpg" class="card-img-top coding-card-img-top" alt="Event 1" >
       <div class="card-body">
         <h5 class="card-title" data-i18n="codingEventsCoffee">Coffee with our team</h5>
         <p class="card-text" data-i18n="codingEventsCoffeeTime">Every day, at 8:30 am</p>
-        <a href="#" class="event btn" data-i18n="codingEventsJoin">Join</a>
+        <a href="#" class="event btn" data-i18n="codingEventsJoin" data-toggle="modal" data-target="#codingEventModal">Join</a>
       </div>
     </div>
-    <div class="card">
-      <img src="images/event2.jpg" class="card-img-top" alt="Event 2">
+    <div class="card coding-card">
+      <img src="images/event2.jpg" class="card-img-top coding-card-img-top" alt="Event 2">
       <div class="card-body">
         <h5 class="card-title" data-i18n="codingEventsHackathon">Quaterly Hackathon</h5>
         <p class="card-text" data-i18n="codingEventsHackathonTime">06, Nov, at 9:00 am</p>
-        <a href="#" class="event btn" data-i18n="codingEventsJoin">Join</a>
+        <a href="#" class="event btn" data-i18n="codingEventsJoin" data-toggle="modal" data-target="#codingEventModal">Join</a>
       </div>
     </div>
-    <div class="card">
-      <img src="images/event3.jpg" class="card-img-top" alt="Event 3">
+    <div class="card coding-card">
+      <img src="images/event3.jpg" class="card-img-top coding-card-img-top" alt="Event 3">
       <div class="card-body">
         <h5 class="card-title" data-i18n="codingEventsMeetUp">Tech Meet Up</h5>
         <p class="card-text" data-i18n="codingEventsMeetUpTime">07, Nov, at 9:00 am</p>
-        <a href="#" class="event btn" data-i18n="codingEventsJoin">Join</a>
+        <a href="#" class="event btn" data-i18n="codingEventsJoin" data-toggle="modal" data-target="#codingEventModal">Join</a>
       </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="codingEventModal" tabindex="-1" role="dialog" aria-labelledby="codingEventModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="codingEventModalLabel" data-i18n = "codingEventsJoin" >Join</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body" data-i18n = "codingEventJoinThank">
+          Thank you for joining!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal" data-i18n = "codingEventJoinDone">Done</button>
+        </div>
       </div>
     </div>
   </div>
