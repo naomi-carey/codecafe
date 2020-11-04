@@ -24,5 +24,5 @@ const ruLanguage = {
   footerLinksHome: "Главная",
   footerLinksMenu: "Меню",
   footerLinksEvents: "События",
-  footerLinksContact: "Обратная связь"
+  footerLinksContact: "Обратная связь",
 }
