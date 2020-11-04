@@ -13,12 +13,13 @@ function getInputValue(){
         let numberVal = numberOfPeople.value
         let specialRquestVal = specialRequirements.value
         let dateVal = dateTime.value
+        // dateVal.toString();
         // Displaying the value
     
         
-        popUpConfirmation.innerHTML = `Name: <strong>${nameVal}</strong>, Number of 
-        people: <strong>${numberVal}</strong>, Special request: <strong>${specialRquestVal}</strong> the Date/Time:
-        <strong>${dateVal}</strong>`;
+        popUpConfirmation.innerHTML = `<strong> Name: </strong> ${nameVal} <br> <strong> Number of 
+        people: </strong> ${numberVal} <br> <strong> Special request: </strong> ${specialRquestVal} <br> <strong> Date/Time: </strong>
+        ${dateVal}`;
         
     }
 
