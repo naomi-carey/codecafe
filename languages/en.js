@@ -27,4 +27,17 @@ const enLanguage = {
   footerLinksMenu: "Menu",
   footerLinksEvents: "Events",
   footerLinksContact: "Contact Us",
+  tryHarder: "Try-Harder",  
+  victory: "Carry your team to victory! Our fully kitted out esports area is your stage to achieve the impossible",
+  challenge:"Complete death-defying raids, secure nail-biting clutch wins and hold your nerve as the last player standing.",
+  play: "All while enjoying our expertly curated drinks selection, served to you as you play.",
+  retro: "Retro Gaming",
+  mario: "If you like mustached Italians,the barrel-throwing monkeys or the princesses to savethe retro-gaming section of the codecafe is made for you,",
+  shot: "come face our teams on wild games,shooter offered for the winner !!!!!!",
+  passion: "if you also like to share your passion with other players in all your area,",
+  pleasure:"if you want to play all night long accompanied by margarita and other little pleasure",
+  borat:"register and like Borat stay safe come with your mask 😷",
+  week:"Gaming Week-End",
+
+
 }
