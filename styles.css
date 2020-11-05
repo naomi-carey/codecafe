@@ -42,7 +42,6 @@ body {
 .bannerimg {
     width: 100%;
     height: auto;
-   
 }
 
 /* Intro Piece  */
@@ -215,33 +214,35 @@ body {
 }
 
 #press {
-   
     background-color: #45494b;
     margin-bottom: 0;
     margin-top: 100px;
     color: white;
     justify-content: space-around;
     text-align: center;
-   
 }
 
 .press-logo {
     margin: 50px;
     padding: 0;
-    
 }
 
 .landing-em {
-
     padding-bottom: 50px;
 }
 
+
+/* .carousel-item {
+    padding-left: 110px;
+    padding-right: 110px;
+} */
 
 
 @media screen and (max-width: 510px) {
     .testimonial-text-landing {
         font-size: 20px;
         padding: 0;
+
         padding-bottom: 10px;
         
     }
@@ -254,10 +255,12 @@ body {
         margin-bottom: 50px;
     }
     .press-logo {
+
         width: 25%;
         padding: 0;
        margin: 30px;
        
+
     }
 }
 
@@ -438,6 +441,9 @@ Landing Page Information piece */
         flex-direction: column;
         align-items: center;
     }
+    .why-we-code {
+        margin-bottom: 1em;
+    }
 }
 
 /* Header for coding page */
@@ -446,7 +452,7 @@ Landing Page Information piece */
     color: rgb(107, 64, 8);
     font-style: italic;
     font-weight: bold;
-    margin: 1em 1em 0em 1em;
+    margin: 0.5em;
 }
 
 /* Menu page CSS */
@@ -454,7 +460,6 @@ Landing Page Information piece */
 .menu-h2 {
     font-weight: bold;
 }
- 
 
 .menu-items {
     text-align: left;
@@ -464,14 +469,11 @@ Landing Page Information piece */
 
 #menu-div {
     background-image: url(/images/old-paper-texture.jpg);
-  
 }
 
 .menu-li {
     padding-bottom: 3%;
     margin-bottom: 1%;
-    
-    
 }
 
 .price {
@@ -575,7 +577,7 @@ Landing Page Information piece */
 }
 
 .form-group {
-   margin-left: 40px;
+    margin-left: 40px;
 }
 
 .contactusform {
@@ -611,7 +613,7 @@ Landing Page Information piece */
     .contactusform {
         width: 80%;
     }
-    .contact-testimonial-image{
+    .contact-testimonial-image {
         width: 200px;
         height: 200px;
     }
@@ -659,7 +661,7 @@ Landing Page Information piece */
     margin-bottom: 0;
 }
 
-/* Interactivity for Coding page */
+/* Interactivity and styles for Coding page */
 
 .p-back {
     display: none;
@@ -670,6 +672,18 @@ Landing Page Information piece */
     border: none;
 }
 
+.coding-intro {
+    margin: 0;
+    text-align: justify;
+}
+
+.coding-card {
+    margin: 0;
+}
+
+.coding-card-img-top {
+    width: 100%;
+}
 
 /* Contact Us Page Pop
 
@@ -749,63 +763,61 @@ Landing Page Information piece */
 
 * {
     box-sizing: border-box;
-  }
-  
+}
 
-  
-  .heading-review {
+.heading-review {
     font-size: 25px;
     margin-right: 25px;
-  }
-  
-  .fa-review {
+}
+
+.fa-review {
     font-size: 20px;
-    
-  }
+}
 
-  .stars{
-      margin-left: 40px;
-  }
+.stars {
+    margin-left: 40px;
+}
 
-  .row-review {
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: 50px;
-  }
-  
-  .checked {
+.row-review {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.checked {
     color: orange;
-  }
-  
-  /* Three column layout */
-  .side {
+}
 
+/* Three column layout */
+.side {
     width: 15%;
     margin-top: 10px;
-  }
-  
+}
+
 .middle {
     float: left;
     width: 70%;
     margin-top: 10px;
 }
 
+
 .row-review {
     margin-left: 20px;
 }
   
+
 /* Place text to the right */
 .right {
     text-align: right;
 }
-  
+
 /* Clear floats after the columns */
 .row-review:after {
-    content: "";
+    content: '';
     display: table;
     clear: both;
 }
-  
+
 /* The bar container */
 .bar-container {
     width: 100%;
@@ -813,23 +825,45 @@ Landing Page Information piece */
     text-align: center;
     color: white;
 }
-  
-  /* Individual bars */
-.bar-5 {width: 80%; height: 18px; background-color: #3e3e3e;}
-.bar-4 {width: 60%; height: 18px; background-color: #3e3e3e;}
-.bar-3 {width:5%; height: 18px; background-color:#3e3e3e;}
-.bar-2 {width: 1%; height: 18px; background-color: #3e3e3e;}
-.bar-1 {width: 1%; height: 18px; background-color: #3e3e3e;}
-  
+
+/* Individual bars */
+.bar-5 {
+    width: 80%;
+    height: 18px;
+    background-color: #3e3e3e;
+}
+.bar-4 {
+    width: 60%;
+    height: 18px;
+    background-color: #3e3e3e;
+}
+.bar-3 {
+    width: 5%;
+    height: 18px;
+    background-color: #3e3e3e;
+}
+.bar-2 {
+    width: 1%;
+    height: 18px;
+    background-color: #3e3e3e;
+}
+.bar-1 {
+    width: 1%;
+    height: 18px;
+    background-color: #3e3e3e;
+}
+
 /* Responsive layout - make the columns stack on top of each other instead of next to each other */
 @media (max-width: 400px) {
-    .side, .middle {
-      width: 100%;
+    .side,
+    .middle {
+        width: 100%;
     }
     /* Hide the right column on small screens */
     .right {
-      display: none;
-}}
+        display: none;
+    }
+}
 
 /* review Form  */
 
@@ -862,7 +896,7 @@ Landing Page Information piece */
 }
 
 .review-form-group {
-   margin-left: 40px;
+    margin-left: 40px;
 }
 
 .review-form {
@@ -870,8 +904,6 @@ Landing Page Information piece */
     margin-top: 50px;
     width: 50%;
 }
-
-
 
 @media screen and (max-width: 510px) {
     .review-form {
@@ -887,6 +919,7 @@ Landing Page Information piece */
        margin-bottom: 50px;
        
     }
+
  .contactheader {
      padding-bottom: 0;
  }
@@ -897,8 +930,8 @@ Landing Page Information piece */
 
 .contactheader {
     padding-bottom: 50px;
-}
 
+}
 
 .review-div {
     display: flex;
