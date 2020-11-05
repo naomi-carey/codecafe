@@ -183,6 +183,7 @@ body {
     text-align: center;
     align-items: center;
     height: 300px;
+    
 }
 
 .landing-carousel-inner {
@@ -208,9 +209,11 @@ body {
 }
 
 .landing-carousel-item{
-    padding-left: 80px;
-    padding-right: 80px;
-    margin-bottom: 50px;
+    padding-left: 90px;
+    padding-right: 90px;
+    margin-bottom: 20px;
+    padding-top: 150px;
+
 }
 
 #press {
@@ -252,7 +255,8 @@ body {
     }
     .landing-carousel-item {
         padding: 60px;
-        margin-bottom: 50px;
+        padding-bottom: 0;
+        margin-bottom:0;
     }
     .press-logo {
 
@@ -261,6 +265,9 @@ body {
        margin: 30px;
        
 
+    }
+    #press {
+        margin-top: 0;
     }
 }
 
