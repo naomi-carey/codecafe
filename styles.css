@@ -444,7 +444,10 @@ Landing Page Information piece */
 }
 
 #menu-div {
-    background-image: url(/images/old-paper-texture.jpg);
+
+    background-image: url(images/old-paper-texture.jpg);
+  
+
 }
 
 .menu-li {
@@ -452,10 +455,10 @@ Landing Page Information piece */
     margin-bottom: 1%;
 }
 
-.price {
-    display: inline;
-    float: right;
-}
+ .price {
+    display: flex;
+     float: right;
+} 
 
 #name:focus::placeholder {
     color: transparent;
@@ -552,9 +555,11 @@ Landing Page Information piece */
     margin-top: 50px;
 }
 
-.form-group {
-    margin-left: 40px;
-}
+
+/* .form-group {
+   margin-left: 40px;
+} */
+
 
 .contactusform {
     margin-bottom: 100px;
