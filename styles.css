@@ -417,6 +417,9 @@ Landing Page Information piece */
         flex-direction: column;
         align-items: center;
     }
+    .why-we-code {
+        margin-bottom: 1em;
+    }
 }
 
 /* Header for coding page */
@@ -646,8 +649,16 @@ Landing Page Information piece */
 }
 
 .coding-intro {
-    margin: 0em;
+    margin: 0;
     text-align: justify;
+}
+
+.coding-card {
+    margin: 0;
+}
+
+.coding-card-img-top {
+    width: 100%;
 }
 
 /* Contact Us Page Pop
