@@ -18,11 +18,13 @@ const enLanguage = {
   codingEventsHackathonTime: "06, Nov, at 9:00 am",
   codingEventsMeetUp: "Tech Meet Up",
   codingEventsMeetUpTime: "07, Nov, at 9:00 am",
+  codingEventJoinThank: "Thank you for joining!",
+  codingEventJoinDone: "Done",
   footerContent: "Footer Content",
   footerInfo: "Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   footerLinks: "Links",
   footerLinksHome: "Home",
   footerLinksMenu: "Menu",
   footerLinksEvents: "Events",
-  footerLinksContact: "Contact Us"
+  footerLinksContact: "Contact Us",
 }

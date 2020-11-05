@@ -1,4 +1,4 @@
-// Why we code animation
+//Why we code animation
 
 const whyWeCodeText1 = document.querySelectorAll(".why-we-code");
 let pFace = document.querySelectorAll(".p-face");
@@ -15,26 +15,3 @@ for (let i = 0; i < 3; i++){
     pBack[i].style.display = "none";
   })
 }
-
-// Changing language
-
-$(document).ready(function () {
-  let update_texts = function () {
-      $('body').i18n();
-  };
- 
-  $.i18n().load({
-      en: enLanguage,
-      fr: frLanguage,
-      ru: ruLanguage
-  });
-
-  $('.language-select').change(function (e) {
-      let language = $(this).val();
-      $.i18n().locale = language;
-      update_texts();
-      
-  });
-
-  update_texts();
-});
