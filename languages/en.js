@@ -18,6 +18,8 @@ const enLanguage = {
   codingEventsHackathonTime: "06, Nov, at 9:00 am",
   codingEventsMeetUp: "Tech Meet Up",
   codingEventsMeetUpTime: "07, Nov, at 9:00 am",
+  codingEventJoinThank: "Thank you for joining!",
+  codingEventJoinDone: "Done",
   footerContent: "Footer Content",
   footerInfo: "Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
   footerLinks: "Links",
@@ -25,6 +27,7 @@ const enLanguage = {
   footerLinksMenu: "Menu",
   footerLinksEvents: "Events",
   footerLinksContact: "Contact Us",
+
   whatsBrewing: "What's Brewing?",
   coffeeDescription: "Unique, small-batch Fair Trade, Organic, Shade-Grown coffee.",
   salty: "Salty",
@@ -60,4 +63,5 @@ const enLanguage = {
   carrotCake:  "Carrot Cake",
   peanutButterBrownie:  "Peanut Butter Brownie",
   
+
 }
