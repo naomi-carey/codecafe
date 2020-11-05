@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles.css">
+    <!-- <link rel="stylesheet" href="styles.css"> -->
     <title>Menu</title>
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
@@ -13,6 +13,7 @@
     <link rel="manifest" href="images/favicon_io/site.webmanifest">
     <!-- CSS animation -->
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
@@ -24,21 +25,27 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">HOME</a>
+              <a class="nav-link" href="index.html" data-i18n="navHome">HOME</a>
             </li>
               <li class="nav-item active">
-              <a class="nav-link" href="menu.html">MENU</a>
+              <a class="nav-link" href="menu.html" data-i18n="navMenu">MENU</a>
               </li>
               <li class="nav-item">
-              <a class="nav-link" href="coding.html">CODING </a>
+              <a class="nav-link" href="coding.html" data-i18n="navCoding">CODING </a>
               </li>
               <li class="nav-item">
-              <a class="nav-link" href="gaming.html">GAMING </a>
+              <a class="nav-link" href="gaming.html" data-i18n="navGaming">GAMING </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact.html">ABOUT US</a>
+                <a class="nav-link" href="contact.html" data-i18n="navAbout">ABOUT US</a>
               </li>
-    
+              <li class="nav-item">
+                <select name="language" class="language-select nav-link">
+                  <option value="en">English</option>   
+                  <option value="fr">Français</option>  
+                  <option value="ru">Русский</option>
+                </select>
+              </li>
             </li>
           </ul>
         </div>
@@ -52,13 +59,13 @@
         <div class="row align-items-center">
             <div class="col-lg-6">
                 <div id="headingGroup" class="text-black text-center d-none d-lg-block">
-                    <h1 class="animate__animated animate__pulse">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
-                    <h1 class="animate__animated animate__pulse">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
-                    <h1 class="animate__animated animate__pulse">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
-                    <h1 class="animate__animated animate__pulse">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
-                    <h1 class="animate__animated animate__pulse">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
-                    <h1 class="animate__animated animate__pulse">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
-                    <h1 class="animate__animated animate__pulse">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
+                    <h1 class="animate__animated animate__pulse" data-i18n="codeMenuBanner">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
+                    <h1 class="animate__animated animate__pulse" data-i18n="codeMenuBanner">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
+                    <h1 class="animate__animated animate__pulse" data-i18n="codeMenuBanner">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
+                    <h1 class="animate__animated animate__pulse" data-i18n="codeMenuBanner">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
+                    <h1 class="animate__animated animate__pulse" data-i18n="codeMenuBanner">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
+                    <h1 class="animate__animated animate__pulse" data-i18n="codeMenuBanner">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
+                    <h1 class="animate__animated animate__pulse" data-i18n="codeMenuBanner">CODE<span>/</span>GAME<span>/</span>EAT<span>/</span>COFFEE</h1>
                 </div>
             </div>
             <div class="col-lg-6">
@@ -74,20 +81,19 @@
             <div id="menu-div" class="col-md-6 text-center order-1 order-md-2">
                 <div class="row justify-content-center">
                     <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                        <h2 class="menu-h2">What's Brewing?</h2>
-                        <p class="lead"> Unique, small-batch Fair Trade, Organic, Shade-Grown coffee.</p>
+                        <h2 class="menu-h2" data-i18n="whatsBrewing">What's Brewing?</h2>
+                        <p class="lead" data-i18n="coffeeDescription"> Unique, small-batch Fair Trade, Organic, Shade-Grown coffee.</p>
 
                             <ul class="menu-items">
-
-                                <li class="menu-li">DRIP COFFEE<span class="price">Sml $3 / Lrg $3.50</span></li>
-                                <li class="menu-li">COLD BREW<span class="price">Sml $3 / Lrg $3.50</span></li>
-                                <li class="menu-li">NITRO COLD BREW<span class="price">Sml $3 / Lrg $3.50</span></li>
-                                <li class="menu-li">ESPRESSO<span class="price">Sml $3 / Lrg $3.50</span></li>
-                                <li class="menu-li">AMERICANO<span class="price">Sml $3 / Lrg $3.50</span></li>
-                                <li class="menu-li">MACCHIATO<span class="price">Sml $3 / Lrg $3.50</span></li>
-                                <li class="menu-li">CORTADO<span class="price">Sml $3 / Lrg $3.50</span></li>
-                                <li class="menu-li">CAPPUCCINO<span class="price">Sml $3 / Lrg $3.50</span></li>
-                                <li class="menu-li">LATTE<span class="price">Sml $3 / Lrg $3.50</span></li>
+                                <li class="menu-li"><span data-i18n="dripCoffee">DRIP COFFEE</span><span class="price"> €3 / €3.50</span></li>
+                                <li class="menu-li"><span data-i18n="coldBrew">COLD BREW</span><span class="price"> €3 / €3.50</li>
+                                <li class="menu-li"><span data-i18n="nitroBrew">NITRO COLD BREW</span><span class="price"> €4 / €4.50</span></li>
+                                <li class="menu-li"><span data-i18n="espresso">ESPRESSO</span><span class="price"> €4 / €4.50</span></li>
+                                <li class="menu-li"><span data-i18n="americano">AMERICANO</span><span class="price"> €3 / €3.50</span></li>
+                                <li class="menu-li"><span data-i18n="macchiato">MACCHIATO</span><span class="price"> €4 / €4.50</span></li>
+                                <li class="menu-li"><span data-i18n="cortado">CORTADO</span><span class="price"> €3 / €3.50</span></li>
+                                <li class="menu-li"><span data-i18n="cappuccino">CAPPUCCINO</span><span class="price"> €4 / €4.50</span></li>
+                                <li class="menu-li"><span data-i18n="latte">LATTE</span><span class="price"> €3 / €3.50</span></li>
                             </ul>
                     </div>
                 </div>
@@ -97,21 +103,20 @@
             <div id="menu-div" class="col-md-6 text-center">
                 <div class="row justify-content-center">
                     <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                        <h2 class="menu-h2">Salty</h2>
-                        <!-- <img src="imgs/lolli_icon.png" alt="" class="d-none d-lg-inline"> -->
-                        <p class="lead">Homemade baked goods, where the scent 
+                        <h2 class="menu-h2" data-i18n="salty">Salty</h2>
+                        <p class="lead" data-i18n="saltyDescription">Homemade baked goods, where the scent 
                             of fresh-baked bread or chocolate chip cookies is always present.</p>
 
                             <ul class="menu-items">
-
-                                <li class="menu-li">FRESH BAKED BREADS<span class="price">$3.50</span></li>
-                                <li class="menu-li">CLASSIC CROISSANT<span class="price">$3.50</span></li>
-                                <li class="menu-li">THE SHROOM BAHN MI<span class="price">$3.50</span></li>
-                                <li class="menu-li">HIPSTER AVOCADO TOAST<span class="price">$3.50</span></li>
-                                <li class="menu-li">MAC & CHEESE<span class="price">$3.50</span></li>
-                                <li class="menu-li">BAGEL & LOX<span class="price">$3.50</span></li>
-                                <li class="menu-li">CHEESE PLATE<span class="price">$3.50</span></li>
-                                <li class="menu-li">HUMMUS PLATE<span class="price">$3.50</span></li>
+                                
+                                <li class="menu-li"><span data-i18n="freshBread">FRESH BAKED BREADS</span><span class="price">€3.50</span></li>
+                                <li class="menu-li"><span data-i18n="classicCroissant">CLASSIC CROISSANT</span><span class="price">€2.50</span></li>
+                                <li class="menu-li"><span data-i18n="shroomBahnMi">SHROOM BAHN MI</span><span class="price">€6.50</span></li>
+                                <li class="menu-li"><span data-i18n="hipsterAvocado">HIPSTER AVOCADO TOAST</span><span class="price">€4.50</span></li>
+                                <li class="menu-li"><span data-i18n="macCheese">MAC & CHEESE</span><span class="price">€6.50</span></li>
+                                <li class="menu-li"><span data-i18n="bagelLox">BAGEL & LOX</span><span class="price">€6.50</span></li>
+                                <li class="menu-li"><span data-i18n="CheesePlate">CHEESE PLATE</span><span class="price">€7.50</span></li>
+                                <li class="menu-li"><span data-i18n="HummusPlate">HUMMUS PLATE</span><span class="price">€6.50</span></li>
                             </ul>
                     </div>
                 </div>
@@ -127,19 +132,18 @@
             <div class="col-md-6 text-center order-1 order-md-2">
                 <div id="menu-div" class="row justify-content-center">
                     <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
-                        <h2 class="menu-h2">Sweets</h2>
-                        <p class="lead"> We take pride in using natural ingredient for our cakes and desserts.</p>
+                        <h2 class="menu-h2" data-i18n="sweets">Sweets</h2>
+                        <p class="lead" data-i18n="sweetsDescription"> We take pride in using natural ingredient for our cakes and desserts.</p>
 
                             <ul class="menu-items">
-
-                                <li class="menu-li">MUFFINS<span class="price">$3.50</span></li>
-                                <li class="menu-li">SCONES<span class="price">$3.50</span></li>
-                                <li class="menu-li">BISCOTTI<span class="price">$3.50</span></li>
-                                <li class="menu-li">COOKIES<span class="price">$3.50</span></li>
-                                <li class="menu-li">CHEESECAKE<span class="price">$3.50</span></li>
-                                <li class="menu-li">MACCHIATO<span class="price">$3.50</span></li>
-                                <li class="menu-li">CARROT CAKE<span class="price">$3.50</span></li>
-                                <li class="menu-li">PEANUT BUTTER BROWNIE<span class="price">$3.50</span></li>
+                                <li class="menu-li"><span data-i18n="cupcakes">Assorted Cupcakes</span><span class="price">€2.50</span></li>
+                                <li class="menu-li"><span data-i18n="scones">SCONES</span><span class="price">€2.50</span></li>
+                                <li class="menu-li"><span data-i18n="biscotti">BISCOTTI</span><span class="price">€2.50</span></li>
+                                <li class="menu-li"><span data-i18n="assortedCookies">Assorted COOKIES</span><span class="price">€1.50</span></li>
+                                <li class="menu-li"><span data-i18n="cheeseCake">CHEESECAKE</span><span class="price">€4.50</span></li>
+                                <li class="menu-li"><span data-i18n="RedVelvet">RED VELVET CAKE</span><span class="price">€4.50</span></li>
+                                <li class="menu-li"><span data-i18n="carrotCake">CARROT CAKE</span><span class="price">€4.50</span></li>
+                                <li class="menu-li"><span data-i18n="peanutButterBrownie">PEANUT BUTTER BROWNIE</span><span class="price">€2.50</span></li>
                             </ul>
                     </div>
                 </div>
@@ -150,7 +154,7 @@
 <!-- Reservation Area -->
 <form>
   <div class="form-group">
-      <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Reserve a Table</h1>
+      <h1 class="w3-center w3-jumbo" style="margin-bottom:64px" data-i18n="reserveTable">Reserve a Table</h1>
       
   <div class="form-group col-md-4">
     <label for="input-name"></label>
@@ -183,7 +187,7 @@
 <!-- Button trigger modal -->
 
 <div class="form-group col-md-4">
-<button id="submitButton" onclick=getInputValue(); type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+<button id="submitButton" onclick=getInputValue(); type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-i18n="submitButtonMenu">
   Submit
 </button>
 
@@ -306,5 +310,20 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
     <script src="menu.js"></script>
+
+    <!-- New scripts for languages -->
+
+    <script src="libs/CLDRPluralRuleParser.js"></script>
+    <script src="libs/jquery.i18n.js"></script>
+    <script src="libs/jquery.i18n.messagestore.js"></script>
+    <script src="libs/jquery.i18n.fallbacks.js"></script>
+    <script src="libs/jquery.i18n.language.js"></script>
+    <script src="libs/jquery.i18n.parser.js"></script>
+    <script src="libs/jquery.i18n.emitter.js"></script>
+    <script src="libs/jquery.i18n.emitter.bidi.js"></script>
+    <script src="languages/en.js"></script>
+    <script src="languages/fr.js"></script>
+    <script src="languages/ru.js"></script>
+    <script src ="translation.js"></script>
 </body>
 </html>
