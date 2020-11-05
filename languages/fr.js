@@ -66,5 +66,20 @@ const frLanguage = {
 
   footerLinksEvents: "Événement",
   footerLinksContact: "Nous contacter",
+  tryHarder: "Joueur compétitif",
+  victory: "Transportez votre équipe vers la victoire! Notre espace e-sport entièrement équipé est votre étape pour réaliser l'impossible.",
+  challenge:"Tout en profitant de notre sélection de boissons soigneusement préparées, servies pendant que vous jouez.",
+  play:"Tout en profitant de notre sélection de boissons soigneusement préparées, servies pendant que vous jouez.",
+  retro: "Retro Gaming",
+  mario:"Si vous aimez les Italiens moustachus,les singes lanceurs de tonneaux ou les princesses a sauver la section rétro-gaming du codecafe est faite pour vous,",
+  shot:"venez affronter nos équipes sur des parties sauvages, Shooter offert pour le vainqueur !!!!!!",
+  passion: "si vous aussi vous aimez partagez votre passions avec d'autre joueur de la région,",
+  pleasure:"si vous voulez jouez toutes la nuit accompgnée de margarita et d'autre plaisir",
+  borat:"inscrit toi et comme Borat, pense à ton masque😷",
+  week: "Gaming Week-End",
 
 }
+
+ 
+
+
