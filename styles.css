@@ -47,6 +47,14 @@ body {
 
 /* Intro Piece  */
 
+@media screen and (max-width: 510px) {
+    .intro {
+        width: 100%;
+    
+}
+        
+    }
+
 .intro {
     display: flex;
     text-align: center;
@@ -171,7 +179,7 @@ body {
 }
 /* Landing Page Testimonial */
 
-#testimonial-carousel {
+#testimonial-carousel-landing {
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -184,7 +192,7 @@ body {
     align-items: center;
 }
 
-#testimonials {
+#testimonials-landing {
     text-align: center;
     background-color: #45494b;
     color: white;
@@ -193,11 +201,17 @@ body {
     align-items: center;
 }
 
-.testimonial-text {
+.testimonial-text-landing {
     justify-content: center;
     text-align: center;
     align-items: center;
     padding-bottom: 50px;
+}
+
+.landing-carousel-item{
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-bottom: 50px;
 }
 
 #press {
@@ -222,29 +236,28 @@ body {
     padding-bottom: 50px;
 }
 
-.carousel-item {
-    padding-left: 110px;
-    padding-right: 110px;
 
-}
 
 @media screen and (max-width: 510px) {
-    .testimonial-text {
+    .testimonial-text-landing {
         font-size: 20px;
         padding: 0;
-        padding-bottom: 100px;
+        padding-bottom: 10px;
         
     }
     .landing-em {
         font-size: 10px;
         padding-bottom: 100px;
     }
-    .carousel-item {
+    .landing-carousel-item {
         padding: 60px;
+        margin-bottom: 50px;
     }
     .press-logo {
-        width: 100px;
-
+        width: 25%;
+        padding: 0;
+       margin: 30px;
+       
     }
 }
 
@@ -621,7 +634,7 @@ Landing Page Information piece */
     flex-wrap: wrap-reverse;
     justify-content: space-around;
     line-height: 1.5;
-    margin-top: 50px;
+  
 }
 
 .contact {
@@ -776,6 +789,10 @@ Landing Page Information piece */
     width: 70%;
     margin-top: 10px;
 }
+
+.row-review {
+    margin-left: 20px;
+}
   
 /* Place text to the right */
 .right {
@@ -818,10 +835,12 @@ Landing Page Information piece */
 
 .reviews {
     width: 50%;
-    max-width: 60%;
+  
     overflow-y: auto;
-    max-height: 350px;
-    margin-bottom: 150px;
+    max-height: 380px;
+    margin-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .reviewer {
@@ -849,25 +868,44 @@ Landing Page Information piece */
 .review-form {
     margin-bottom: 100px;
     margin-top: 50px;
-    width: 40%;
+    width: 50%;
 }
 
 
 
 @media screen and (max-width: 510px) {
-    .reviewform {
+    .review-form {
         width: 80%;
+        margin-bottom: 50px;
+        margin-left: 20px;
     }
+    .reviews {
+        width: 90%;
+       
+        overflow-y: auto;
+        max-height: 380px;
+       margin-bottom: 50px;
+       
+    }
+ .contactheader {
+     padding-bottom: 0;
+ }
+ .contactusform {
+     margin-bottom: 10PX;
+ }
+}
 
+.contactheader {
+    padding-bottom: 50px;
 }
 
 
 .review-div {
     display: flex;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    flex-wrap: wrap-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
     line-height: 1.5;
-    margin-top: 50px;
+    
 }
