@@ -50,22 +50,23 @@ body {
     .intro {
         width: 100%;
         text-align: center;
-    
+    }
 }
 
-    .intro-img {
-       display: inline
-    }
-
-  .google-maps {
+.google-maps {
       width: 90%;
       align-items: center;
       justify-content: center;
     
 
-  }
-        
 }
+
+.fa-review {
+    font-size: 10px;
+    padding-right: 0;
+    padding-left: 0;
+}
+        
 
 .intro {
     display: flex;
@@ -643,6 +644,10 @@ Landing Page Information piece */
     font-size: 1.2em;
 }
 
+.landinginfo {
+    text-decoration: none;
+}
+
 @media screen and (max-width: 510px) {
     .contactusform {
         width: 80%;
@@ -806,7 +811,11 @@ Landing Page Information piece */
 
 .fa-review {
     font-size: 20px;
+    padding-right: 0;
+    padding-left: 0;
 }
+
+
 
 .stars {
     margin-left: 40px;
@@ -816,6 +825,8 @@ Landing Page Information piece */
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
+   
+
 }
 
 .checked {
