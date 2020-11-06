@@ -497,6 +497,16 @@ Landing Page Information piece */
 #special-requirements:focus::placeholder {
     color: transparent;
 }
+#submitButton {
+    background-color: #ffe270;
+    color: #212529;
+    border: 1px solid;
+}
+#submitButton:hover {
+    opacity: 50%;
+    background-color: #ffe270;
+}
+
 
 /* END OF MENU CSS PAGE */
 @media screen and (max-width: 650px) {
