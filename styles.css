@@ -49,10 +49,23 @@ body {
 @media screen and (max-width: 510px) {
     .intro {
         width: 100%;
+        text-align: center;
     
 }
-        
+
+    .intro-img {
+       display: inline
     }
+
+  .google-maps {
+      width: 90%;
+      align-items: center;
+      justify-content: center;
+    
+
+  }
+        
+}
 
 .intro {
     display: flex;
@@ -601,8 +614,8 @@ Landing Page Information piece */
 }
 
 .google-maps {
-    margin-bottom: 100px;
-    margin-top: 50px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 
@@ -612,7 +625,7 @@ Landing Page Information piece */
 
 
 .contactusform {
-    margin-bottom: 100px;
+    margin-bottom: 20px;
     margin-top: 50px;
     width: 40%;
 }
@@ -955,7 +968,7 @@ Landing Page Information piece */
      padding-bottom: 0;
  }
  .contactusform {
-     margin-bottom: 10PX;
+     margin-bottom: 30PX;
  }
 }
 
@@ -973,3 +986,4 @@ Landing Page Information piece */
     line-height: 1.5;
     
 }
+
