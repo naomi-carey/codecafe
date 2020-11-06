@@ -51,16 +51,14 @@ body {
         width: 100%;
         text-align: center;
     }
-}
 
 .google-maps {
       width: 90%;
       align-items: center;
       justify-content: center;
-    
 
 }
-
+}
 .fa-review {
     font-size: 10px;
     padding-right: 0;
