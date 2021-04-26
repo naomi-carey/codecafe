@@ -6,7 +6,7 @@
 | Dean Leonard| Wireframer |
 | Jeanloup Cayuela | The story teller |
 | Victoria Kulinkovich | Administrator|
-| Naomi Carey | The cousin of Mariah |
+| Naomi Carey | 
 
 <p>&nbsp;</p>
 
