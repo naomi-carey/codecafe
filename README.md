@@ -1,12 +1,12 @@
 # </> codeCafe
 
 
-| Team members | Description |
-| ----------- | ----------- |
-| Dean Leonard| Wireframer |
-| Jeanloup Cayuela | The story teller |
-| Victoria Kulinkovich | Administrator|
-| Naomi Carey | 
+| Team members | 
+| ----------- | 
+| Dean Leonard| 
+| Jeanloup Cayuela | 
+| Victoria Kulinkovich |
+| Viet Quoc Pham | 
 
 <p>&nbsp;</p>
 
